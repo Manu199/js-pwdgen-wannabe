@@ -19,7 +19,9 @@ const lastname = prompt('Inserire il cognome');
 
 const color = prompt('Inserire il colore preferito');
 
-const message = 'Your' + ' ' + 'Password' + ' ' + '=' + ' ' + name + lastname + color + 23;
+const password = 'Your' + ' ' + 'Password' + ' ' + '=' + ' ' + name + lastname + color + 23;
+
+const message = password 
 
 
 outputTag.innerHTML = message;  
